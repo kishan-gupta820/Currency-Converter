@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: "Onest";
+    background-color: #202020;
+}
+* {
+box-sizing: border-box;
+}
+input:focus, select:focus {
+    outline: none;
+}
+h1 {
+    background-color: #000;
+    color: #8b3dff;
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+}
+.main-section{
+    background-color: #202020;
+    padding: 40px 0;
+}
+.container {
+    max-width: 720px;
+    width: 90%;
+    margin: 0 auto;
+}
+.main-section form {
+    border: 2px solid #8b3dff;
+    border-radius: 10px;
+    padding: 40px;
+}
+.input-fileds {
+    display: flex;
+    flex-direction: column;
+
+}
+.input-fileds label{
+    margin-bottom: 10px;
+    color: #8b3dff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.input-fileds input {
+    max-width: 300px;
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #8b3dff;
+    background-color: transparent;
+    color: #8b3dff;
+    font-size: 18px;
+    font-weight: 600;
+    appearance: none;
+    border-radius: 10px;
+}
+.input-fileds-row {
+    margin: 40px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.input-fileds-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-fileds-col .select-coun-wrap {
+    width: auto;
+    padding: 10px;
+    border: 2px solid #8b3dff;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.input-fileds-col span {
+    color: #8b3dff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.input-fileds-col .select-country {
+    background-color: transparent;
+    border: none;
+    color: #8b3dff;
+    padding: 10px 2px 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.exchange-val {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.exchange-val button {
+    width: auto;
+    padding: 15px 25px;
+    background-color: #8b3dff;
+    border: 2px solid #8b3dff;
+    color: #202020;
+    transition: all ease 0.5s;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.exchange-val button:hover {
+    background-color: transparent;
+    color: #8b3dff;
+}
+.exchange-val .exchange-msg {
+    font-size: 20px;
+    font-weight: 600;
+    color: #8b3dff;
+}

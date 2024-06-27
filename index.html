@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="onest-font/stylesheet.css">
+</head>
+<body>
+    <h1 class="site-heading">Currency Converter Using JavaScript</h1>
+    <section class="main-section">
+        <div class="container">
+            <div class="currency-row">
+                <form action="">
+                    <div class="input-fileds">
+                        <label>Enter Number</label>
+                        <input type="number" value="1" name="currency-number" class="convert-num">
+                    </div>
+                    <div class="input-fileds-row">
+                        <div class="input-fileds-col from">
+                            <span>From</span>
+                            <div class="select-coun-wrap">
+                                <img src="https://flagsapi.com/US/flat/64.png" alt="country-flag">
+                                <select name="from" id="country-code-from" class="select-country">
+                                    <option value="INR">INR</option>
+                                    <option value="USD">USD</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-fileds-col to">
+                            <span>To</span>
+                            <div class="select-coun-wrap">
+                                <img src="https://flagsapi.com/IN/flat/64.png" alt="country-flag">
+                                <select name="to" id="country-code-to" class="select-country">
+                                    <option value="INR">INR</option>
+                                    <option value="USD">USD</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="exchange-val">
+                        <p class="exchange-msg"></p>
+                        <button class="exchange-btn">Exchange Currency</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="custom.js"></script>
+</body>
+</html>
+
+
